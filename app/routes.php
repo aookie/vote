@@ -15,3 +15,9 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::resource('user', 'UserController');
+Route::resource('vote', 'VoteController');
+Route::resource('player', 'PlayerController');
+Route::resource('match', 'MatchController');
+Route::resource('team', 'TeamController');
