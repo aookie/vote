@@ -1,5 +1,9 @@
 {
- "dependencies": {
-   "bower": "latest"
- }
+  "repository":{
+    "type": "git",
+    "url": "git@github.com:externalight/vote.git"
+  }
+  "dependencies": {
+    "bower": "latest"
+  }
 }
